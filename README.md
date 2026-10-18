@@ -69,7 +69,7 @@ The current prototype includes a complete frontend experience covering authentic
 
 The interface is designed to support multiple languages, with the current prototype demonstrating **English, Hindi, and Manipuri** user-facing experiences.
 
-![Multilingual Dashboard](images/Multilingual%20Dashboard.png)
+![Multilingual Dashboard](<images/Multilingual%20Dashboard.png>)
 
 ![Hindi Landing Page](images/LandUpPageHindi.png)
 
@@ -111,7 +111,7 @@ The registration flow is designed to collect the information required for person
 
 The dashboard provides users with a centralized view of their ESIRE experience, including scheme discovery, profile information, documents, and other platform functionality.
 
-![Dashboard](images/Multilingual%20Dashboard.png)
+![Dashboard](<images/Multilingual%20Dashboard.png>)
 
 ---
 
@@ -540,43 +540,43 @@ Use `.env.example` as a template for local configuration.
 
 ## Frontend
 
-* [x] Landing page
-* [x] Authentication UI
-* [x] Dashboard
-* [x] Scheme interface
-* [x] Profile interface
-* [x] Documents interface
-* [x] Settings
-* [x] Multilingual UI structure
+* [X] Landing page
+* [X] Authentication UI
+* [X] Dashboard
+* [X] Scheme interface
+* [X] Profile interface
+* [X] Documents interface
+* [X] Settings
+* [X] Multilingual UI structure
 * [ ] Complete backend integration
 * [ ] Final UI polish
 
 ## Backend
 
-* [x] FastAPI structure
-* [x] Authentication structure
-* [x] Scheme APIs
-* [x] User APIs
-* [x] Document APIs
-* [x] Matching service structure
-* [x] Scoring service structure
-* [x] Ollama integration
-* [x] Z3 engine structure
+* [X] FastAPI structure
+* [X] Authentication structure
+* [X] Scheme APIs
+* [X] User APIs
+* [X] Document APIs
+* [X] Matching service structure
+* [X] Scoring service structure
+* [X] Ollama integration
+* [X] Z3 engine structure
 * [ ] Complete production database integration
 * [ ] Full frontend-backend integration
 
 ## AI & Recommendation
 
-* [x] Ollama integration structure
-* [x] Matching service structure
-* [x] Scoring service structure
+* [X] Ollama integration structure
+* [X] Matching service structure
+* [X] Scoring service structure
 * [ ] Complete LLM recommendation pipeline
 * [ ] Improved semantic matching
 * [ ] Multilingual AI processing
 
 ## Knowledge Graph
 
-* [x] Neo4j integration structure
+* [X] Neo4j integration structure
 * [ ] Scheme graph construction
 * [ ] Entity modelling
 * [ ] Relationship modelling
@@ -584,15 +584,15 @@ Use `.env.example` as a template for local configuration.
 
 ## Verification
 
-* [x] Rule engine structure
-* [x] Z3 integration structure
+* [X] Rule engine structure
+* [X] Z3 integration structure
 * [ ] Complete eligibility rule modelling
 * [ ] Explainable verification results
 * [ ] Document-aware eligibility verification
 
 ## Deployment
 
-* [x] Docker configuration
+* [X] Docker configuration
 * [ ] Production configuration
 * [ ] Cloud deployment
 * [ ] Monitoring and logging
