@@ -9,7 +9,7 @@ export function setToken(token) {
   else localStorage.removeItem(TOKEN_KEY);
 }
 
-const API = import.meta.env.VITE_API_URL || "https://paangba.onrender.com";
+const API = (import.meta.env.VITE_API_URL || "https://paangba.onrender.com").replace(/\/+$/, "");
 async function request(path, options = {}) {
   const headers = { ...(options.headers || {}) };
   const token = getToken();
