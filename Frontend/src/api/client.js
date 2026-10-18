@@ -9,6 +9,7 @@ export function setToken(token) {
   else localStorage.removeItem(TOKEN_KEY);
 }
 
+const API = import.meta.env.VITE_API_URL || "https://paangba.onrender.com";
 async function request(path, options = {}) {
   const headers = { ...(options.headers || {}) };
   const token = getToken();
@@ -19,7 +20,7 @@ async function request(path, options = {}) {
   const language = localStorage.getItem("esire_language");
   if (language) headers["Accept-Language"] = language;
 
-  const response = await fetch(path, { ...options, headers });
+  const response = await fetch(`${API}${path}`, { ...options, headers });
   const text = await response.text();
   let data = null;
   try {
