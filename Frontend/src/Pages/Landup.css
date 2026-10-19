@@ -1,4 +1,3 @@
-
 /* =========================================
    RESET
 ========================================= */
@@ -195,14 +194,12 @@ a {
   width: 100%;
   height: 4px;
 
-  background: linear-gradient(
-    to right,
-    #ff9933 0%,
-    #ffb866 25%,
-    #ffffff 50%,
-    #8fce88 75%,
-    #138808 100%
-  );
+  background: linear-gradient(to right,
+      #ff9933 0%,
+      #ffb866 25%,
+      #ffffff 50%,
+      #8fce88 75%,
+      #138808 100%);
 }
 
 
@@ -226,12 +223,10 @@ a {
 
   padding: 25px 20px;
 
-  background: linear-gradient(
-    135deg,
-    #ffffff 0%,
-    #f5f8fc 55%,
-    #edf3f8 100%
-  );
+  background: linear-gradient(135deg,
+      #ffffff 0%,
+      #f5f8fc 55%,
+      #edf3f8 100%);
 
   overflow: hidden;
 }
@@ -564,7 +559,7 @@ a {
 
   .hero h1 {
     font-size: 38px;
-    
+
   }
 
   .hero p {
@@ -589,4 +584,3 @@ a {
     padding: 20px 25px;
   }
 }
-

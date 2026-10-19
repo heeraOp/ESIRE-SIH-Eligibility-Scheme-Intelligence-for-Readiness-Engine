@@ -234,15 +234,6 @@ const Profile = () => {
             <label htmlFor="profile-income">{t("annualIncome")}</label>
             <input id="profile-income" name="annual_income" type="number" min="0" value={form.annual_income} onChange={handleChange} />
           </div>
-
-          <label className="form-checkbox">
-            <input type="checkbox" name="is_entrepreneur" checked={form.is_entrepreneur} onChange={handleChange} />
-            {t("entrepreneur")}
-          </label>
-          <label className="form-checkbox">
-            <input type="checkbox" name="has_existing_business" checked={form.has_existing_business} onChange={handleChange} />
-            I already have an existing, registered business
-          </label>
           <label className="form-checkbox">
             <input type="checkbox" name="has_land" checked={form.has_land} onChange={handleChange} />
             {t("hasLand")}

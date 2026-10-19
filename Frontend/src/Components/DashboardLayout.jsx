@@ -64,7 +64,7 @@ const DashboardLayout = () => {
 
         <div className="sidebar-logo">
           <h1>ESIRE</h1>
-          <p>Entrepreneur Scheme Intelligence &amp; Readiness Engine</p>
+          <p>Welfare Scheme Assistance Navigator</p>
         </div>
 
         <nav className="sidebar-nav">

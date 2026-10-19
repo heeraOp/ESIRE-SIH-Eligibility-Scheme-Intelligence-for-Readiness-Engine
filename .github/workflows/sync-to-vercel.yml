@@ -1,0 +1,24 @@
+name: Sync Cloud to Vercel Main
+
+on:
+  push:
+    branches:
+      - cloud  # Triggers when updates land on origin/cloud
+
+jobs:
+  sync-repo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Source Branch
+        uses: actions/checkout@v4
+        with:
+          ref: cloud
+          fetch-depth: 0
+
+      - name: Push to Vercel Repo
+        uses: repo-sync/github-sync@v2
+        with:
+          source_branch: "cloud"
+          destination_branch: "main"
+          github_token: ${{ secrets.SYNC_TOKEN }}
+          destination_repo: "https://github.com"

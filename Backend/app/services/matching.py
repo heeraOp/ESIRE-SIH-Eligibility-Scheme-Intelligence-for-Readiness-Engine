@@ -222,15 +222,7 @@ def evaluate_user(db: Session, user: User, include_excluded: bool = False) -> di
         item["applied"] = item["scheme_id"] in applications
     displayed.sort(key=lambda row: row["final_score"], reverse=True)
 
-    # AI explanations are a finishing touch on top of deterministic results,
-    # applied only to the schemes actually shown to the user — never once
-    # per scheme in the catalog. If Ollama is unavailable this is a no-op
-    # and every scheme simply keeps its deterministic explanation text.
-    if settings.ai_explanations_enabled:
-        for item in displayed[: settings.ai_explanation_top_n]:
-            enhanced = enhance_explanation(item, user.language)
-            if enhanced:
-                item["explanation"] = enhanced
+    
 
     result = {
         "schemes": displayed,
