@@ -65,7 +65,7 @@ function Signup({ onSwitchToLogin }) {
         <div className="signup-line"></div>
         <div className="signup-content">
           <div className="signup-brand">
-            <h1>ESIRE</h1>
+            <h1>PAANGBA</h1>
             <p>{t("governmentSchemes")}</p>
           </div>
           <div className="signup-progress">

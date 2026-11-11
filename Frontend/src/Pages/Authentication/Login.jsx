@@ -91,7 +91,7 @@ function Login({ onSwitchToSignup }) {
         <div className="auth-line"></div>
         <div className="auth-content">
           <div className="auth-brand">
-            <h1>ESIRE</h1>
+            <h1>PAANGBA</h1>
             <p>{t("governmentSchemes")}</p>
           </div>
 

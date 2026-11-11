@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#1E293B" />
+    </linearGradient>
+    
+    <!-- Icon Flame/Spark Gradient -->
+    <linearGradient id="brandGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF4500" />
+      <stop offset="60%" stop-color="#FF8C00" />
+      <stop offset="100%" stop-color="#FFD700" />
+    </linearGradient>
+  </defs>
+
+  <!-- Squircle Base for Modern Look -->
+  <rect width="512" height="512" rx="120" fill="url(#bgGrad)" />
+
+  <!-- Abstract Capital "E" Emblem -->
+  <path fill="url(#brandGrad)" d="M140 120c0-13.3 10.7-24 24-24h184c13.3 0 24 10.7 24 24s-10.7 24-24 24H188v88h136c13.3 0 24 10.7 24 24s-10.7 24-24 24H188v88h160c13.3 0 24 10.7 24 24s-10.7 24-24 24H164c-13.3 0-24-10.7-24-24V120z" />
+</svg>

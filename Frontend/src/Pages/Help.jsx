@@ -2,7 +2,7 @@ import "./Help.css";
 
 const FAQS = [
   {
-    q: "How does ESIRE match me to schemes?",
+    q: "How does PAANGBA match me to schemes?",
     a: "We compare the details in your profile against each scheme's eligibility criteria to calculate a match score, shown on every scheme card.",
   },
   {

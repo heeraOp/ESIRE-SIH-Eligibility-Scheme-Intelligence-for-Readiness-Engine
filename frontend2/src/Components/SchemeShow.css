@@ -1,0 +1,25 @@
+
+.sidebar-logo {
+  padding: 0 12px;
+  margin-bottom: 38px;
+}
+
+.sidebar-logo h1 {
+  color: #ffffff;
+
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 1px;
+
+  margin: 10px;
+  margin-top: 0;
+}
+
+.sidebar-logo p {
+  margin-top: 6px;
+
+  color: #8a95a3;
+
+  font-size: 9px;
+  line-height: 1.4;
+}

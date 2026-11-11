@@ -7,7 +7,7 @@ const SchemeShow=(schemes)=>{
         <>
             <header>
                 <div className="sidebar-logo">
-                    <h1>ESIRE</h1>
+                    <h1>PAANGBA</h1>
                     <p>Entrepreneur Scheme Intelligence & Readiness Engine</p>
                 </div>
 
